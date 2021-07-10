@@ -1,7 +1,9 @@
 /*
 
 	Finding all positive (greater than 1) integers, dividing the most numbers of a given set of positives integers.
-	Complexity: 
+	Computional complexity: O(   n*log(n)  +  max(t_i) * log( max(t_i) )   )
+	Space complexity:       O( n + max(t_i) )
+	
 
 */
 
